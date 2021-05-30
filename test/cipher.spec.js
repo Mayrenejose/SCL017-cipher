@@ -26,7 +26,7 @@ describe('cipher', () => {
     });
 
     it('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 33', () => {
-      expect(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
+      expect(cipher.encode('ABCDEFGHIJKLMNOPQRSTUVWXYZ', 33)).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
     });
 
     // Hacker edition
@@ -61,7 +61,7 @@ describe('cipher', () => {
   describe('cipher.decode', () => {
 
     it('should be a function', () => {
-      expect(typeof cipher.decode).toBe('function');
+      expect(typeof cipher.decode).toEqual('function');
     });
 
     it('should throw TypeError when invoked with wrong argument types', () => {
@@ -72,7 +72,7 @@ describe('cipher', () => {
     });
 
     it('should return "ABCDEFGHIJKLMNOPQRSTUVWXYZ" for "HIJKLMNOPQRSTUVWXYZABCDEFG" with offset 33', () => {
-      expect(cipher.decode(33, 'HIJKLMNOPQRSTUVWXYZABCDEFG')).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
+      expect(cipher.decode('HIJKLMNOPQRSTUVWXYZABCDEFG', 33)).toBe('ABCDEFGHIJKLMNOPQRSTUVWXYZ');
     });
 
     //

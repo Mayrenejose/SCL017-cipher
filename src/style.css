@@ -1,0 +1,142 @@
+:root{
+  --border-round: 7px;
+  --terminal-color: #17202A;
+}
+
+body{
+margin: 5%;
+background-image:url(https://image.dhgate.com/0x0s/f2-albu-g8-M01-A6-2D-rBVaV1yPTEiAcd_mAAEAgyAo5OY341.jpg/modernos-fondos-de-pantalla-de-la-sala-de.jpg);
+background-size: 150%;
+font-family: 'Alice', serif;
+align-items: center;
+justify-content: center;
+display: flex;
+color:#000000;
+}
+
+h2{
+font-size: 400%;
+margin: 5%;
+text-align: center
+}
+
+input{
+border: none;
+outline: none;
+}
+
+.box{
+padding: 20 px;
+box-shadow: 8px 8px 35px 0px rgb(0 0 0/ 95%);
+border-radius: var(--border-round);
+}
+
+h3{
+font-size: 150%;
+font-weight: bold;
+}
+
+#number{
+font-size: 120%;
+font-weight: bold;
+}
+
+#originalWord , #outcome {
+padding: 20px;
+color:#FDFEFE;
+background-color: var(--terminal-color);
+text-align: center;
+width: -webkit-fill-available;
+font-size: 130%;
+border-radius: var(--border-round)
+}
+
+#outcome{
+color:#FF0000;
+border-radius: var(--border-round);
+padding: 30px;
+}
+
+.space{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center; 
+}
+
+#position{
+margin-top: 1%;
+align-items: center;
+background-color:var(--terminal-color);
+border-radius: var(--border-round);
+font-size: 20px;
+color:#FDFEFE;
+padding: 10px;
+}
+
+#hola {
+background-color:#D4AC0D;
+border-radius: var(--border-round);
+font-size: 17px;
+color:#FDFEFE;
+border: 2px solid #D4AC0D;
+cursor: pointer;
+padding: 3px;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
+width: 150px;
+}
+
+#hola:hover{
+background-color: #FDFEFE;
+color: var(--terminal-color);
+border: 2px solid #FDFEFE;
+}
+
+#departamento{
+border: 0%;
+outline: 0;
+border-radius: var(--border-round);
+padding: 7px;
+}
+
+header{
+background-image: url(https://image.freepik.com/vector-gratis/tecnologia-abstracta-fondo-gris-particulas_1035-17927.jpg);
+height: 70px ;
+text-align:justify;
+font-size: 15px;
+background-size: cover;
+}
+
+.container{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.encryptor{
+background-color:#D4AC0D;
+border-radius: var(--border-round);
+font-size: 17px;
+color:#FDFEFE;
+border: 2px solid #D4AC0D;
+cursor: pointer;
+padding: 3px;
+-webkit-transition-duration: 0.5s;
+transition-duration: 0.5s;
+width: 150px;
+}
+
+.encryptor:hover{
+background-color: #FDFEFE;
+color: var(--terminal-color);
+border: 2px solid #FDFEFE; 
+}
+
+#displace{
+margin: 1%;
+font-size: 150%;
+text-align: center;
+font-weight: bold;
+}
