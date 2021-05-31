@@ -1,17 +1,23 @@
 const cipher = { //Objeto cipher//
 
     encode: (word, originalDisplace) => {
-        var outcome = "";
+        //Cadena vacia para devolver resultado//
+        var outcome = ""; 
+        //cadena con abecedario//
         var letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
+        //calcular desplazamiento//
         originalDisplace = (originalDisplace % 26 + 26) % 26;
 
         if (word) {
+            //Para recorrer cadena y verificar que sea una letra del abecedario//
             for (var i = 0; i < word.length; i++) {
+                //rotacion para nuevo valor de letra//
                 if (letters.indexOf(word[i]) != -1) {
+                    //variable originalPosition guarda el nuevo valor de la letra //
                     var originalPosition = ((letters.indexOf(word[i]) + originalDisplace) % 26);
+                    //resultado de la nueva letra//
                     outcome += letters[originalPosition];
-
+                    //Error si se ingresa caracteres incorrecto//
                     if (typeof word !== "string") {
                         throw new TypeError("Error");
                     }
@@ -19,7 +25,7 @@ const cipher = { //Objeto cipher//
                         throw new TypeError("Error");
                     }
 
-                }
+                } //Alerta a usuario si se ingresan caracteres incorrectos//
                 else {
                     alert("introduce caracteres correctos")
                 }
