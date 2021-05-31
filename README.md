@@ -1,19 +1,19 @@
 Proyecto Cifrado Cesar.
-De: Mayrene Mora.
+De: Mayrene Mora.npm
 Fecha de Inicio: 11 de mayo del 2021.
 Nombre del proyecto: Prot-Accion
 
-#Historia:
+# Historia:
 
  Al momento de leer los dos proyectos presentados por los coaches, inmediatamente seti conexion y supe que queria trabajar con Cipher, el motivo era que llamaba mucho mi atencion la manera de cifrar tan mecanica y exacta, lo cual en cierto modo a mi me gusta mucho. Inicialmente tenia en mente desarrollar un proyecto que luego gracias a conversaciones con mis compañeras me di cuenta que era muy basico, muy predesible, asi que como primer reto decidi re inventarme y estrucuturar uno nuevo, asi nacio Prot-Accion (Prot de proteccion y Accion de actuar).
 
-#Objetivo:
+# Objetivo:
 
  Crear aplicacion donde los habitantes de un condominio, o comunidad, puedan crear codigo de acceso para entrar a el. Especificamente la aplicacion web sera usada por la administracion del edifio.
 
 Crear este tipo de acceso a la comunidad aporta a los habitantes y trabajadores independencia en sus entradas y salidas del edificio, y sobretodo seguridad de que sera menos probable que pueda entrar algun extraño.
 
-#¿Como Funciona Prot-Accion?:
+# ¿Como Funciona Prot-Accion?:
 
 Prot-Accion trabaja en conjunto con un panel situado en las diferentes entradas del edificio, el cual se encarga de solicitar codigo de acceso para abrir puertas , y no permite que estas puedan ser abiertas de manera manual.
 
@@ -21,11 +21,11 @@ Cada vecino de la comunidad debe dirigirse a la recepcion o medios habilitados p
 
 De igual manera, se tiene la accion de hacer reversa a este codigo de acceso en el mismo sistema.
 
-#¿A quien va dirigido Prot-Accion?:
+# ¿A quien va dirigido Prot-Accion?:
 
 Va dirigido directamente a las administradoras de edificios o comunidades, para desarrollar un metodo de seguridad mas personal y por lo tanto mas eficiente. La idea principal es que cada habitante de la comunidad pueda acercarse directamente o solitar por algun medio habilitado un codigo de acceso para ingresar al edificio , ya sea por el estacionamientos o por entrada principal.
 
-#¿Que necesidad estas resolviendo?:
+# ¿Que necesidad estas resolviendo?:
 
 Actualmente estamos viviendo en un tiempo donde nunca nada es suficiente para sentirnos seguros,asi que el metodo utilizado por Prot-Accion al ser mas personalizado nos hace sentir mas seguro en cuanto a las personas que puedan ingresar a la comunidad donde vivimos.
 
@@ -44,7 +44,7 @@ Objetivos del 1er sprint:
 Sprint N° 2: Para el segundo sprint el principal objetivo era trabajar en mi codigo cipher, el cual poco a poco se fue logrando, pero a la final tuve que darle otra ubicacion a mis funciones, lo cual hizo que mi aplicacion no volviera a funcionar. 
 
 Objetivos del 2do sprint:
-- Aprender u ejecutar el ser mas ordenada con mi codigo.
+-Aprender u ejecutar el ser mas ordenada con mi codigo.
 -Darle diseño acorde a mi aplicacion.
 -Aprender y ejecutar mi codigo cipher.
 -Lograr dedicarle mas tiempo a mi proyecto.
@@ -63,7 +63,7 @@ Objetivos del 3er sprint:
 -Pedir feedbak a compañeras.
 -Culminar la escritura de mi readme.
 
-#Resumen de desarrollo de mi proyecto:
+# Resumen de desarrollo de mi proyecto:
 
 Primero que nada estos 3 sprint hicieron que me diera cuenta que siempre somos capaces de dar mucho mas de lo que pensamos, con  mucho esfuerzo y ganas de hacer las cosas, estoy muy feliz con el resultado obtenido, me siento preparada para los siguientes retos , y sobretodo se que cuento con el apoyo de muchas personas para salir de cualquier bloque en el que me pueda llegar a encontrar. Una de las enseñanzas mas importante este tiempo fue siempre estar atenta a los detalles, porque por mas pequeños que sean a veces pueden generar caos.
 

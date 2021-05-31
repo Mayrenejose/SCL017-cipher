@@ -1,4 +1,4 @@
-const cipher = {
+const cipher = { //Objeto cipher//
 
     encode: (word, originalDisplace) => {
         var outcome = "";
